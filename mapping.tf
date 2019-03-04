@@ -1,3 +1,6 @@
+variable "access_key" {}
+variable "secret_key" {}
+varibale "region" {}
 variable "name" {
   type = "list"
   default = ["core","watermark","taskrunner"]
