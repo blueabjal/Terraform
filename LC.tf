@@ -1,4 +1,4 @@
-
+variable "environment" {}
 
 resource "aws_launch_configuration" "LC" {
     count = 3
