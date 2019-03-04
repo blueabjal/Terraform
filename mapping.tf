@@ -1,6 +1,3 @@
-variable "access_key" {}
-variable "secret_key" {}
-variable "region" {}
 variable "name" {
   type = "list"
   default = ["core","watermark","taskrunner"]
